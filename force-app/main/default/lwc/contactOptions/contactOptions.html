@@ -1,0 +1,71 @@
+<template>
+  <lightning-card variant="narrow" icon-name="standard:endorsement" title="Contact Opt-Ins">
+
+    <!-- Buttons -->
+    <lightning-button-group slot="actions">
+      <lightning-button label="Anonymize"></lightning-button>
+      <lightning-button label="Send Infos"></lightning-button>
+    </lightning-button-group>
+
+    <div class="slds-card__body_inner slds-grid slds-gutters">
+
+      <!-- Left Column -->
+      <div class="slds-col">
+
+        <div class="slds-form-element slds-m-top_medium">
+          <label class="slds-checkbox_toggle slds-grid">
+            <input type="checkbox" name="checkbox-toggle-11" value="checkbox-toggle-11" aria-describedby="checkbox-toggle-11" checked>
+            <span id="checkbox-toggle-11" class="slds-checkbox_faux_container" aria-live="assertive">
+              <span class="slds-checkbox_faux"></span>
+              <span class="slds-checkbox_on">{optin_label}</span>
+              <span class="slds-checkbox_off">{optout_label}</span>
+            </span>
+            <span class="slds-form-element__label slds-m-bottom_none slds-p-left_x-small">E-Mail</span>
+          </label>
+        </div>
+
+        <div class="slds-form-element slds-m-top_medium">
+          <label class="slds-checkbox_toggle slds-grid">
+            <input type="checkbox" name="checkbox-toggle-13" value="checkbox-toggle-13" aria-describedby="checkbox-toggle-13" checked>
+            <span id="checkbox-toggle-13" class="slds-checkbox_faux_container" aria-live="assertive">
+              <span class="slds-checkbox_faux"></span>
+              <span class="slds-checkbox_on">{optin_label}</span>
+              <span class="slds-checkbox_off">{optout_label}</span>
+            </span>
+            <span class="slds-form-element__label slds-m-bottom_none slds-p-left_x-small">Phone</span>
+          </label>
+        </div>
+
+      </div>
+
+      <!-- Right Column -->
+      <div class="slds-col">
+
+        <div class="slds-form-element slds-m-top_medium">
+          <label class="slds-checkbox_toggle slds-grid">
+            <input type="checkbox" name="checkbox-toggle-15" value="checkbox-toggle-15" aria-describedby="checkbox-toggle-15" checked>
+            <span id="checkbox-toggle-15" class="slds-checkbox_faux_container" aria-live="assertive">
+              <span class="slds-checkbox_faux"></span>
+              <span class="slds-checkbox_on">{optin_label}</span>
+              <span class="slds-checkbox_off">{optout_label}</span>
+            </span>
+            <span class="slds-form-element__label slds-m-bottom_none slds-p-left_x-small">Marketing</span>
+          </label>
+        </div>
+
+        <div class="slds-form-element slds-m-top_medium">
+          <label class="slds-checkbox_toggle slds-grid">
+            <input type="checkbox" name="checkbox-toggle-17" value="checkbox-toggle-17" aria-describedby="checkbox-toggle-17">
+            <span id="checkbox-toggle-17" class="slds-checkbox_faux_container" aria-live="assertive">
+              <span class="slds-checkbox_faux"></span>
+              <span class="slds-checkbox_on">{optin_label}</span>
+              <span class="slds-checkbox_off">{optout_label}</span>
+            </span>
+            <span class="slds-form-element__label slds-m-bottom_none slds-p-left_x-small">Post</span>
+          </label>
+        </div>
+
+      </div>
+    </div>
+  </lightning-card>
+</template>
